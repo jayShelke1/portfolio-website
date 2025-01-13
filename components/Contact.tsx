@@ -86,16 +86,16 @@ export default function Contact() {
       </h2>
       <div className="flex flex-col items-center justify-center gap-8">
         <div className="flex gap-4 mb-4">
-          <a
+          {/* <a
             href="mailto:your.email@example.com"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-blue-700 transition-colors dark:text-black dark:hover:text-gray-300"
           >
             <Mail className="h-6 w-6" />
-          </a>
+          </a> */}
           <a
-            href="https://github.com/yourusername"
+            href="https://github.com/jayShelke1"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-blue-700 dark:hover:text-gray-300 transition-colors dark:text-black"
@@ -103,7 +103,7 @@ export default function Contact() {
             <Github className="h-6 w-6" />
           </a>
           <a
-            href="https://www.linkedin.com/in/yourprofile"
+            href="https://in.linkedin.com/in/jay-shelke-268282317"
             target="_blank"
             rel="noopener noreferrer"
             className="text-gray-600 hover:text-blue-700 transition-colors dark:text-black dark:hover:text-gray-300"

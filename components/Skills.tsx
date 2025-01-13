@@ -4,13 +4,14 @@ const skills = [
   { name: 'HTML', level: 'Advanced' },
   { name: 'CSS', level: 'Advanced' },
   { name: 'JavaScript', level: 'Advanced' },
-  { name: 'React', level: 'Advanced' },
-  { name: 'Next.js', level: 'Intermediate' },
+  { name: 'React', level: 'Intermediate' },
+  // { name: 'Next.js', level: 'Intermediate' },
   { name: 'Node.js', level: 'Intermediate' },
   { name: 'Tailwind CSS', level: 'Advanced' },
   // { name: 'TypeScript', level: 'Intermediate' },
   // { name: 'GraphQL', level: 'Beginner' },
   { name: 'Java', level: 'Intermediate' },
+  { name: 'Android Studio', level: 'Intermediate' },
 ]
 
 export default function Skills() {
