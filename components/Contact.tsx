@@ -86,14 +86,6 @@ export default function Contact() {
       </h2>
       <div className="flex flex-col items-center justify-center gap-8">
         <div className="flex gap-4 mb-4">
-          {/* <a
-            href="mailto:your.email@example.com"
-            target="_blank"
-            rel="noopener noreferrer"
-            className="text-gray-600 hover:text-blue-700 transition-colors dark:text-black dark:hover:text-gray-300"
-          >
-            <Mail className="h-6 w-6" />
-          </a> */}
           <a
             href="https://github.com/jayShelke1"
             target="_blank"

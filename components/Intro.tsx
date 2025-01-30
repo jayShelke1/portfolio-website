@@ -7,7 +7,7 @@ export default function Intro() {
     <section className="flex flex-col md:flex-row items-center justify-between py-16">
       <div className="md:w-1/2 mb-8 md:mb-0">
         <h2 className="text-4xl font-bold mb-4 bg-clip-text text-transparent bg-gradient-to-r from-purple-600 to-pink-600 dark:from-purple-400 dark:to-pink-400">
-          Hi, I'm Jay Shelke
+          Hi, I&apos;m Jay Shelke
         </h2>
         <p className="text-xl text-gray-600 dark:text-gray-300 mb-6">
           A passionate web developer specializing in creating beautiful and functional websites.
@@ -15,7 +15,7 @@ export default function Intro() {
         <div className="flex space-x-4">
           <Button 
             className="flex items-center space-x-2 bg-gradient-to-r from-purple-600 to-pink-600 hover:from-purple-700 hover:to-pink-700 text-white" 
-            // as="a"
+          
             
           >
           <a className='flex space-x-2' href="/Resume.pdf" download>
@@ -23,15 +23,6 @@ export default function Intro() {
               <span>Download Resume</span>
             </a>
           </Button>
-          {/* <Button 
-            variant="outline"
-            className="flex items-center space-x-2"
-            as="a"
-            href="#projects"
-          >
-            <ArrowDown size={20} />
-            <span>View Projects</span>
-          </Button> */}
         </div>
       </div>
       <div className="md:w-1/2 flex justify-center">
