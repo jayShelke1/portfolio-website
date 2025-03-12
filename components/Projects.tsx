@@ -9,18 +9,18 @@ const projects = [
     id: 1, 
     title: 'Expense Tracker App', 
     description: 'A simple Android application to track daily expenses using Java and SQLite. Designed an intuitive user interface with Android Studio and implemented features for adding, updating, and deleting expenseentries.',
-    technologies: ['Java', 'Android Studio', 'SQLite'],
+    technologies: ['React.js', 'Redux', 'MongoDb'],
     image: '/ex.jpeg?height=200&width=300&text=Project%201',
     github: 'https://github.com/jayShelke1'
   },
-  // { 
-  //   id: 2, 
-  //   title: 'Project 2', 
-  //   description: 'A brief description of Project 2',
-  //   technologies: ['Vue.js', 'Express', 'PostgreSQL'],
-  //   image: '/ex.jpeg?height=200&width=400&text=Project%202',
-  //   github: 'https://github.com/yourusername/project2'
-  // },
+  { 
+    id: 2, 
+    title: 'Memory Mind Game', 
+    description: 'A simple game based on memory. Player need to remember the card before the game start and match them properly in the given time.',
+    technologies: ['React.js', 'Next.js'],
+    image: '/Memorymindgame.png',
+    github: 'https://github.com/jayShelke1'
+  },
   // { 
   //   id: 3, 
   //   title: 'Project 3', 
