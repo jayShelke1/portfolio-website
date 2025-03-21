@@ -18,7 +18,7 @@ export default function Intro() {
           
             
           >
-          <a className='flex space-x-2' href="/Resume.pdf" download>
+          <a className='flex space-x-2' href="/New Resume.pdf" download>
           <FileText size={20} />
               <span>Download Resume</span>
             </a>
